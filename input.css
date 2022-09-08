@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.text-light {
+  color: hsl(0, 0%, 62%);
+}
+
+.bd-light {
+  border-color: hsl(0, 0%, 62%);
+}
+
+.bg-primary {
+  background-color: hsl(223, 87%, 63%);
+}
+
+.text-primary {
+  color: hsl(223, 87%, 63%);
+}
+
+.hoverIcon:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+
+.error {
+  border-color: red;
+}
+
+.mes.error {
+  display: block;
+}

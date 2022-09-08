@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="max-w-3xl mx-auto text-center mt-8">
+    <div class="mb-8">
+      <img
+        class="max-w-full mx-auto"
+        src="./images/logo.svg"
+        alt="logo"
+        aria-hidden="true"
+      />
+    </div>
+    <h1 class="text-4xl text-light">
+      We are launching <span class="font-bold text-black">soon!</span>
+    </h1>
+    <p class="mt-4 text-base mb-8">Subscribe and get notified</p>
+    <div class="">
+      <form class="w-4/5 mx-auto sm:w-full relative flex justify-center gap-8 sm:gap-0 flex-col sm:flex-row">
+        <input
+          class="outline-none text-base rounded-full h-12 px-8 sm:w-1/2 border bd-light"
+          type="text"
+          placeholder="Your email address..."
+        />
+        <div class="mes hidden absolute top-12 left-28 text-sm text-red-500">
+          Please provide a valid email address
+        </div class="">
+        <button
+          class="sm:w-fit w-full text-center sm:ml-4 h-12 shadow-sm shadow-blue-300/40 mb-16 px-12 py-2 text-white font-semibold bg-primary rounded-full hover:opacity-70"
+        >
+          Notify Me
+        </button>
+      </form>
+      <div class="mb-12 sm:mb-0">
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="image"
+          aria-hidden="true"
+        />
+      </div>
+    </div>
+    <footer>
+      <div class="flex gap-4 justify-center mb-2">
+        <a href="https://www.facebook.com/"
+          ><i
+            class="fa-brands fa-facebook-f border rounded-full p-2 text-primary hoverIcon"
+          ></i
+        ></a>
+        <a href="https://www.twitter.com/"
+          ><i
+            class="fa-brands fa-twitter border rounded-full p-2 text-primary hoverIcon"
+          ></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i
+            class="fa-brands fa-instagram border rounded-full p-2 text-primary hoverIcon"
+          ></i
+        ></a>
+      </div>
+      <div class="text-xs text-gray-400">
+        &copy; Copyright Ping. All rights reserved.
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
